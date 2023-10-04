@@ -1,4 +1,4 @@
-package Exercicios.ListaTarefas;
+package Exercicios.List.OperaçõesBásicas.ListaTarefas;
 
 public class Tarefa {
   // atributo
