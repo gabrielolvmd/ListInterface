@@ -1,4 +1,4 @@
-package Exercicios;
+package Exercicios.ListaTarefas;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +16,7 @@ public class ListaTarefas {
   }
 
   public void removerTarefa(String descricao) {
-    List<Tarefa> tarefasParaRemover = new ArrayList();
+    List<Tarefa> tarefasParaRemover = new ArrayList<>();
     for (Tarefa t : tarefaList) {
       if (t.getDescricao().equals(descricao)) {
         tarefasParaRemover.add(t);
