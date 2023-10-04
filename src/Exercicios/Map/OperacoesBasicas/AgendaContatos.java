@@ -1,11 +1,10 @@
-package main.java.map.OperacoesBasicas;
+package Exercicios.Map.OperacoesBasicas;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class AgendaContatos {
   // atributo
-  // nao precisa criar uma classe contato quando utilizamos o map
   private Map<String, Integer> agendaContatoMap;
 
   public AgendaContatos() {
